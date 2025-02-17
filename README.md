@@ -1,4 +1,4 @@
-# NoteBook-websit
+# NoteBook-website
 # Commite-NoteBook-websit
 # JS-NoteBook-websit
 
