@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notepad</title>
+    <link rel="stylesheet" href="./style.css">
+ </head>
+<body>
+    <div class="navbar">
+        <h1>Note Book</h1>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>Sample page of Book</h2>
+            <h3>Create your Won Book Notes</h3>
+            <p>Expande your Thought and Idea here by words and imagination by Clicking the ADD + Button</p>
+            <button onclick="newdelete(event)" id="newdeleteone">Delete</button>
+            <button id="editbtn" onclick="edit()">Edit</button>
+        </div>
+
+        <div class="popup-overlay">
+            <div class="popup-menu">
+                <h2>Add Name</h2>
+                <form>
+                    <input type="text"  placeholder="Note Book title" id="book-title-input"><br>
+                    <input type="text"  placeholder="Content of the Page" id="book-author-input"><br>
+                    <textarea placeholder="Create your Idea here" id="text-here"></textarea><br>
+                    <button id="add-book">Add</button>
+                    <button id="cancle-book">cancle</button>
+                </form>
+            </div>
+        </div>
+
+        <button class="add-button"  id="add-button">+</button>
+    </div>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
